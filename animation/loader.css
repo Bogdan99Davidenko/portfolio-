@@ -1,0 +1,45 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.loaderArea {
+  margin-top: 300px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  width: 412px;
+  height: 106px;
+  text-align: center;
+  position: relative;
+  border: 2px solid #d2d2d2;
+  box-shadow: -1px 1px 16px -2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -1px 1px 16px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -1px 1px 16px -2px rgba(0, 0, 0, 0.6);
+}
+.text {
+  position: absolute;
+  margin-left: -47px;
+  top: 19px;
+  font-family: "Arial Bold", sans-serif;
+}
+.loader {
+  border-radius: 5px;
+  background-color: #64b21f;
+  margin-left: 25px;
+  width: 359px;
+  height: 30px;
+  animation-name: loading;
+  animation-duration: 3s;
+  position: absolute;
+  top: 53px;
+}
+@keyframes loading {
+  from {
+    width: 0px;
+    height: 30px;
+  }
+  to {
+    width: 359px;
+    height: 30px;
+  }
+}

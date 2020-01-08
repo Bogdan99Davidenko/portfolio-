@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">	
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header class = "header">
+		<div class="container">
+			<div class="header-wrap">
+				<div class="logo">
+					<a href="start.html">Templete</a>
+				</div>
+				<div class="mobile-logo">
+					<a href="start.html">TL</a>
+				</div>
+				<div class="contacts">
+					<span>E-mail sing up</span>
+					<a href="shopping-bag.html">
+						<i class="fa fa-shopping-bag"></i>
+					</a>
+					<span>Bag(0)</span>
+				</div>
+				<div class="header-bars">
+					<input type="checkbox" id = "check-menu">
+					<label for="check-menu"></label>
+					<div class="burger-line first"></div>
+					<div class="burger-line second"></div>
+					<div class="burger-line third"></div>
+					<div class="burger-line fourth"></div>
+					<nav class = "responsive-menu">
+						<ul>
+							<li class="menu__item">
+								<a href="#" id = "filterWomen">
+									Women
+								</a>
+							</li>
+							<li class="menu__item" id = "filterMen">
+								<a href="#">
+									Men
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									Handbags
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									Accesories
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									Sale
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									New Arrivals
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									Clearance
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									Store Locator
+								</a>
+							</li>
+						</ul>
+					    <div class="search">
+							<input type="text" value = "Style Name">
+					    	<i id = "loupe" class="fa fa-search"></i>	
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="nav-wrap">
+				<nav>
+					<ul class="menu">
+						<li class="menu__item">
+							<a id = "filter-women" href="#">
+								Women
+							</a>
+						</li>
+						<li class="menu__item">
+							<a id = "filter-men" href="#">
+								Men
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Handbags
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Accesories
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Sale
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								New Arrivals
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Clearance
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#">
+								Store Locator
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="search">
+					<input type="text" value = "Style Name">
+					<i id = "loupe" class="fa fa-search"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="filter">
+		<div class="container">
+			<div class="filter-block">
+			 <ul class="menu-filter">
+			 	<li class = "menu-filter-li fashion-li">
+			 		Fashion <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block">
+			 			
+			 		</div>
+			 		<ul class="fashion">
+			 			<li>Not selected</li>
+			 			<li>Nail the 90s</li>
+			 			<li>Casual style</li>
+			 			<li>New Look</li>
+			 			<li>Sport</li>
+			 			<li>Vintage</li>
+			 			<li>Classical style</li>
+			 		</ul>
+			 	</li>
+			 </ul>	
+			  <ul class="menu-filter">
+			 	<li class = "menu-filter-li product">
+			 		Product type <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block product-block">
+			 			
+			 		</div>
+			 		<ul class="product-type">
+			 			<li>Not selected</li>
+			 			<li>Coats & Jackets</li>
+			 			<li>Dresses</li>
+			 			<li>Jersey Tops</li>
+			 		</ul>
+			 	</li>
+			 </ul>	
+			 <ul class="menu-filter">
+			 	<li class = "menu-filter-li color-li">
+			 		Color <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block color-block">
+			 			
+			 		</div>
+			 		<ul class="color">
+			 			<li>Not selected</li>
+			 			<li>Black</li>
+			 			<li>Blue</li>
+			 			<li>Red</li>
+			 			<li>Green</li>
+			 			<li>Golden</li>
+			 		</ul>
+			 	</li>
+			 </ul>
+			 	 <ul class="menu-filter">
+			 		<li class = "menu-filter-li brand-li">
+			 		Brand <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block brand-block">
+			 			
+			 		</div>
+			 		<ul class="brand">
+			 			<li>Not selected</li>
+			 			<li>Chi Chi London</li>
+			 			<li>Antipodium</li>
+			 			<li>Adidas</li>
+			 			<li>New Balence</li>
+			 			<li>River Island</li>
+			 		</ul>
+			 	</li>
+			 </ul>		
+			  <ul class="menu-filter">
+			 		<li class = "menu-filter-li sizes-li">
+			 		Size <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block sizes-block">
+			 			
+			 		</div>
+			 		<ul class="sizes">
+			 			<li>Not selected</li>
+			 			<li>UK 2</li>
+			 			<li>UK 18</li>
+			 			<li>UK 18L</li>
+			 			<li>UK 20L</li>
+			 			<li>UK 20S</li>
+			 			<li>UK 22S</li>
+			 			<li>UK 22</li>
+			 		</ul>
+			 	</li>
+			 </ul>		
+			  <ul class="menu-filter">
+			 		<li class = "menu-filter-li price-li">
+			 		Price range <i class="fa fa-angle-down"></i>
+			 		<div class="hide-block price-block">
+			 			
+			 		</div>
+			 		<ul class="range-price">
+			 			<li>Not selected</li>
+			 			<li>To &#163;99</li>
+			 			<li>&#163;100-&#163;299</li>
+			 			<li>From &#163;300</li>
+			 		</ul>
+			 	</li>
+			 </ul>		
+			</div>
+		</div>
+	</section>
+	<section class="arrivals-catalog">
+    	<div class="container">
+    		<div id="arrivals-images">
+    			<!-- 4 items -->
+
+    		</div>
+    		<div class="title">
+	    		<h3>Last weekend <span>extra 50%</span> off on all reduced boots and shoulder bags</h3>
+    			<p>This offer is valid in-store and online. Prices displayed reflect this additional discount. This offer ends at 11:59 GMT on March 1st 2015</p>
+    		</div>
+    		<div id="catalog-block">
+    			<!-- 12 items -->
+    			
+    			<a id="4a3d3c3e-9dc5-4d99-b33d-42b22e20dc0b" href="item.html#4a3d3c3e-9dc5-4d99-b33d-42b22e20dc0b" class="false"><div class="catalog-block__item"><img src="img/leg.png"><div class="price"><p>Straight Leg Jeans</p><p>£55</p></div><div class="overlay"><p>View item</p></div></div></a>
+    			<a id="9ded7821-e510-4a16-ba9f-57c1e3442ad8" href="item.html#9ded7821-e510-4a16-ba9f-57c1e3442ad8" class="false"><div class="catalog-block__item"><img src="img/jumper_rib.png"><div class="price"><p>Turtle Neck Jumper in Rib</p><p>£130.25</p></div><div class="overlay"><p>View item</p></div></div></a>
+    		</div>
+    		<div class="arrivals-button">
+    			<button class="btn">Show more</button>
+    		</div>
+    	</div>
+    </section>
+    <section class = "goods">
+    	<div class="container-big">
+	    	<div class="goods-block">
+	    		<div class="goods-block__item adidas">
+	    			<div class="service-text white">
+		    			<span>Adidas blue</span>
+		    			<span class="sale">For men</span>
+		    		</div>
+	    		</div>
+	    		<div class="goods-block__item repair">
+	    			<div class="service-text-repair">
+		    			<span>Repair Patches</span>
+		    			<span>&#163; 150.50</span>
+		    		</div>
+	    		</div>
+	    		<div class="goods-block__item big-bag">
+			    	<div class="service-text-bag">
+				 		<span>Sale</span>
+				 		<span class="sale">-70%</span>
+					</div>
+			    </div>
+	    	</div>
+	    </div>
+    </section>
+     <footer class="footer">
+    	<div class="container">
+    		<div class="footer-top">  
+    			<div class="footer-top__item">
+    				<div class="list">
+    					<div class="quick-links">
+	    					<p>Quick Links</p>
+	    					<ul>
+	    						<li>
+	    							<a href="#">
+	    								Store locator
+	    						    </a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Gift cards
+	    						    </a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Size guide
+	    						    </a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								About us
+	    						    </a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Support
+	    						    </a>
+	    						</li>
+	    					</ul>
+    				    </div>
+	    				<div class="customer-care">
+	    					<p>Customer Care</p>
+	    					<ul>
+	    						<li>
+	    							<a href="#">
+	    								Customer Care
+	    							</a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Track my order
+	    							</a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Return policy
+	    							</a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Shipping & delivery
+	    							</a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    								Contact us
+	    							</a>
+	    						</li>
+	    						<li>
+	    							<a href="#">
+	    							Careers
+	    							</a>
+	    						</li>
+	    					</ul>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="footer-top__item">
+    				<div class="question-order">
+    					<div class="question">
+    						<p>Question</p>
+    						<p><i class = "fa fa-twitter"></i> Tweet us <strong>@templete</strong></p>
+    					</div>
+    					<div class="order">
+    						<p>Order by phone</p>
+    						<p>8-800-409-47-12</p>
+    					</div>
+    				</div>
+    				<div class="description">
+    					We have our own delivery service which <br>
+    					 operates in 23 major European cities.
+    					 Delivery <br> time - 3-5 days.
+    				</div>
+    				<div class="icon">
+    					<ul>
+			   				<li>
+	   							<a href="#">Legal policy</a>
+	   						</li>
+	   						<li>
+	   							<a href="#">Privacy policy</a>
+	   						</li>
+	   						<li>
+	   							<a href="#">Site map</a>
+	   						</li>
+		   				</ul>
+    					<i class="fa fa-facebook"></i>
+    					<i class="fa fa-twitter"></i>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+   	<div class="footer-wrap">
+   		<div class="container">
+   			<div class="footer-bottom">
+	    		<div class="copyright">
+	   				<p>&copy; 2010-2015, The Templete Group inc.</p>
+	   			</div>
+	   			<div class = "share">
+	   				<p>Share</p>
+    				<div class="block">1 437</div>
+    			</div>	
+    			<ul>
+			   	   <li>
+	   					<a href="#">Legal policy</a>
+	  			    </li>
+	   			    <li>
+	   					<a href="#">Privacy policy</a>
+	   				</li>
+	 				<li>
+	  					<a href="#">Site map</a>
+	   				</li>
+  				</ul>
+	        </div>
+		</div>
+    </footer>
+    <script src = "data/catalog.js"></script>
+    <script src = "js/countPrice.js"></script>	
+    <script src = "js/catalog.js"></script>
+</body>
+</html>

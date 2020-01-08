@@ -1,0 +1,604 @@
+@media screen and (max-width:1036px) {
+	#catalog-block a {
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width:1060px) {
+
+	.catalog-block__item img,
+	.cart-block-img img {
+	    width: 204px;
+  		height: 289px;
+	}
+
+	.overlay {
+ 		width: 204px;
+  		height: 289px;
+	}
+
+	.overlay p {
+		line-height: 200px;
+	}
+}
+
+@media screen and (max-width: 916px) {
+	 .arrivals-images .catalog-block__item:nth-child(4) {
+  		display: none;
+  	}
+}
+
+@media screen and (max-width: 768px) {
+	.arrivals-images .arrivals-images__item:nth-child(4) {
+  		display: none;
+  	}
+	
+	.arrivals-images__item img {
+  		width: 204px;
+  		height: 289px;
+  	}	
+
+  	.menu-filter {
+  		width: 60px;
+  	}
+
+  	.menu-filter-li:before {
+  		content: ",";
+  	}
+
+  	li.fashion-li:before {
+  		content: "";
+  	}
+
+	.menu-filter:nth-child(1) {
+  		width: 65px;
+  	}
+	
+  	.menu-filter:nth-child(2),
+  	.menu-filter:last-child {
+  		width: 120px;
+  	}
+
+  	li.menu-filter-li {
+  		line-height: 1.8;
+  	}
+
+  	.fa-angle-down {
+  		opacity: 0
+  	}
+	
+	#thumb-images  {
+		flex-flow: column;
+		display: inline-block;
+	}
+
+	.thumb-block,
+	.thumb-block2 {
+		width: 100%;
+		text-align:center;
+	}
+
+	a.service-block__item {
+		height: 200px;
+	}
+
+	.service-text-bag {
+		margin-top: 130px;
+	}
+
+	.menu__item a {
+		margin-right: 25px;
+	}
+
+	input[type="text"] {
+		display: none;
+
+	}
+
+	#arrivals-images a:nth-child(4) {
+		display: none;
+	}
+
+	#catalog-block a:nth-child(2) {
+		display: block;
+	}
+	
+	.title h3 {
+		font-size: 20px;
+		max-width: 437px;
+		margin: 0 auto
+	}
+
+	.title p {
+		max-width: 570px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+
+	.prev, 
+    .next {
+    	display: none;
+    } 
+
+    .dots{
+    	background: #fff;
+    }
+
+    .nav-wrap {
+    	flex-flow: nowrap;
+    }
+
+	.search {
+		border: none;
+	}
+	
+	section.service {
+		border-bottom: 1.5px solid #e5e5e5
+	}
+
+	a.service-block__item:nth-child(2) {	
+		display: none;
+	}
+
+	a.service-block__item:last-child {	
+		display: block;
+		border-left: 1.5px solid #e5e5e5
+	}
+
+	.question-order {
+		display: block;
+	}
+
+	.order {
+		margin-top: 50px;
+	}
+
+	.description {
+		display: none;
+	}
+
+	.contacts-block__item:first-child {
+		width: 65%;
+	}
+
+	.contacts-block__item:last-child {
+		width: 35%;
+	}
+
+	.icon {
+		margin-top: 45%;
+	}
+
+
+	.service-text-repair {
+		margin-top: 200px;
+	}
+
+	.customer-care {
+		margin-right: 5%;
+	}
+
+	.title h2 {
+		font-size: 40px
+	}
+
+	.footer-top__item:last-child {
+		border: none;
+	}
+	
+	.repair{
+		width:50%;
+		background-size:cover;
+	}
+
+	.adidas {
+		width: 100%;
+		background-size:cover;
+	}
+
+	.big-bag {
+		display: none;
+	}
+
+		.thumbs {
+		flex-flow: wrap
+	}
+}
+
+@media screen and (max-width: 737px) {
+	.selected {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 712px) {
+	.catalog-block__item img,
+	.cart-block-img img  {
+		width: 158px;
+  		height: 223px;
+	}
+	
+
+	.overlay {
+ 		width: 158px;
+  		height: 223px;
+	}
+
+	.overlay p {
+		line-height: 150px;
+	}
+}
+
+@media screen and (max-width: 696px) {
+	.footer-bottom  {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.footer-bottom ul  {
+		margin: 0 auto
+	}
+
+	.logo {
+		display: none;
+	}
+	
+	.search {
+		display: none;
+	}
+
+	nav {
+		background: #fff
+	}
+
+	nav {
+		display: none;
+	}
+
+	.contacts  {
+		padding-right:55px;
+		margin-left: 40px;
+	}
+
+	.responsive-menu > .search {
+		display: block;
+		border-bottom:1.5px solid #e5e5e5;
+		margin-left: 10px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		width: 185px;
+	}
+	
+	.responsive-menu > .search input {
+		display: inline-block;
+		margin-right: 45px;
+	}
+
+	.header-bars {
+		display: block;
+	}
+
+	.mobile-logo {
+		display: block;
+	}
+}
+
+@media screen and  (max-width: 577px) {
+	.arrivals-images a:nth-child(3) {
+		display: none;
+	}
+
+	button.buy-button {
+		width: 45%;
+	}
+
+	.empty-button {
+		width:30%;
+	}
+
+	.total-cost {
+		width: 20%;
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 511px){
+
+	.contacts span {
+		margin-left: 0;
+	}
+
+	.footer-top {
+		display: block;
+	}
+
+	.footer-top__item {
+		width: 100%
+	}
+
+	.nike {
+		width: 100%
+	}
+
+	a.service-block__item:last-child {
+		display: none;
+	}
+	
+	.footer-top__item:last-child {
+		padding: 0px;
+	}
+   .question,
+   .order{
+   		display: inline-block;
+   }
+
+   .order {
+	   	margin: 0;
+	   	padding-left: 8%;
+   }
+}
+
+@media screen and (max-width: 512px) {
+	.footer-top__item:last-child .icon {
+		margin: 0;
+		text-align: center;
+	}
+
+	.order {
+		margin-left: 10px;
+	}
+
+	.container {
+		padding: 0px 20px;
+	}
+
+	.cart-block__item {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 448px) {
+
+	.contacts span:first-child {
+		display: none;
+	}
+
+	.arrivals-images__item img {
+		width: 158px;
+  		height: 223px;
+	}
+
+
+	#arrivals-images a:nth-child(3) {
+		display: none;
+	}
+
+	#catalog-block a:first-child {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 416px) {
+	.container {
+		padding: 0px 20px;
+	}
+
+	#thumb-images {
+		flex-direction: row;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	
+	.thumb-block2-size,
+	.thumb-block2-color {
+		text-align: left;
+	}
+	.btn {
+		width: 218px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.question-order {
+		border: 1.5px solid #e5e5e5;
+	}
+	
+	.footer .container{
+		padding: 0
+	}
+
+	#catalog-block {
+		justify-content: space-between;
+		align-items: none;
+	}
+
+	#catalog-block a {
+		margin-left: 0;
+	}
+	.menu-filter {
+		width: 50px;
+	}
+	
+	.menu-filter li {
+		font-size: 12px;
+	}
+	.menu-filter:nth-child(1) {
+  		width: 50px;
+  	}
+	
+  	.menu-filter:nth-child(2),
+  	.menu-filter:last-child {
+  		width: 55px;
+  	}
+
+	.adidas {
+		background-size: cover;
+		width: 100%;
+		height: 200px
+	}
+
+	.menu-filter {
+		font-size: 10px
+	}
+
+	.footer-top__item, 
+	.question-order {
+		padding: 0px 15px
+	}
+
+	.question {
+		border-right: 1.5px solid #e5e5e5;
+	}
+
+	.quick-links p, 
+	.customer-care p,
+	.question p:first-child,
+	.order p:first-child {
+		font-size: 14px
+	}
+	
+	.order {
+		padding: 10px 0px 40px 0px;
+	}
+	.question {
+		padding: 10px 30px 40px 0px;
+	}
+
+	.list {
+		padding: 25px 0px 60px 0px
+	}
+
+	.title h2 {
+		font-size: 26px
+	}
+
+	.arrivals-images__item:nth-child(3) {
+		display: none;
+	}
+
+	.btn {
+		width: 218px;
+	}
+
+	.footer-top__item  {
+		width: 100%;
+	}
+
+	.customer-care {
+		margin-left: 30%;
+	}
+
+	.footer-top__item:last-child ul {
+		display: block;
+		margin-top: -3px;
+	    font-size: 10px;
+	    font-weight: bold;
+	    margin-right: 25%;
+	}
+
+	.footer-top__item:last-child li {
+		display: inline-block;
+		margin-left: 6px;
+	}
+
+	.footer-bottom ul {
+		display: none;
+	}
+
+	.title h3 {
+		font-size: 20px;
+		max-width: 270px;
+		margin: 0 auto
+	}
+
+	.title p {
+		max-width: 570px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+
+
+	.footer-top__item:last-child .icon {
+		display: flex;
+		padding: 30px 15px;
+	}
+
+	.footer-bottom  {
+		font-size: 10px
+  	 }
+
+  	 .share p {
+  	 	font-size: 14px;
+  	 }
+
+  	 .share {
+  	 	margin: -6px;
+  	 }
+	
+	.catalog-block a:nth-child(7),
+	.catalog-block a:nth-child(8),
+	.catalog-block a:nth-child(9),
+	.catalog-block a:nth-child(10),
+	.catalog-block a:nth-child(11),
+	.catalog-block a:nth-child(12){
+		display: none;
+	}
+
+	.goods-block .goods-block__item:nth-child(2) {
+		display: none;
+	}
+	.contacts {
+		padding-right: 40px;
+	}
+
+}
+
+@media screen and (max-width: 355px) {
+	.arrivals-images .arrivals-images__item {
+		margin: 0 auto
+	}
+
+	.arrivals-images .arrivals-images__item {
+		margin: 0 auto
+	}
+
+	.contacts {
+		margin-left: 15px;
+		padding-right: 5px;
+	}
+}
+
+@media screen and (max-width: 335px) {
+	.footer-top__item:last-child ul {
+		margin-right: 15%;
+	}
+
+	.quantity {
+		font-size: 12px
+	}
+}
+
+@media screen and (max-width: 326px) {
+	.question-order {
+		display: block;
+	}
+
+	.order {
+		margin: 0
+	}
+}
+
+@media screen and (max-width: 317px) {
+	.question {
+		width: 100%;
+		border: none
+	}
+
+	.order {
+		margin: 0
+	}
+}

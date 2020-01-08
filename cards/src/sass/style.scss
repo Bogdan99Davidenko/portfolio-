@@ -1,0 +1,55 @@
+@import "normalize";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+
+  .card {
+    position: relative;
+    margin: auto;
+    width: 259px;
+    height: 362px;
+    transform: rotate(0.5turn);
+
+    .front,
+    .back {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .back {
+     opacity: 1;
+     transform: rotateY(0);
+     transition: opacity 0.5s, transform 0.5s;
+    }
+    .front {
+      opacity: 0;
+      transition: transform 0.5s;
+      transform: rotateY(180deg);
+      transition: opacity 0.5s, transform 0.5s;
+    }
+
+    &:hover {
+      .back {
+        opacity: 0;
+        transform: rotateY(180deg);
+      }
+      .front {
+        opacity: 1;
+        transform: rotateY(0deg);
+      }
+    }
+  }
+}
