@@ -150,9 +150,11 @@ var buy_product = document.querySelector(".buy-button .btn");
 
 function emptyBag() {
 	localStorage.clear();
+	document.getElementsByClassName("empty-wrap")[0].innerHTML = "Are you want to clear your bag?";
 	document.getElementsByClassName("cart-block")[0].innerHTML = "Your shopping bag is empty. Use Catalog to add new items";
 	document.getElementsByClassName("total-cost")[0].innerText =  "Total cost\n" + '\u00A3' + "0";
-	document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';	
+	document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';
+	document.getElementsByClassname("empty-wrap").style = "display:block";	
 }
 
 function buyProduct() {
@@ -163,6 +165,9 @@ function buyProduct() {
 	document.getElementById("modal").style = "display:block";
 }
 
+document.getElementById("close").onclick = function (){
+	document.getElementById("modal").style = "display:none";
+}
 document.getElementById("close").onclick = function (){
 	document.getElementById("modal").style = "display:none";
 }

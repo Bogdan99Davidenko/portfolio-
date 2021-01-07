@@ -1101,17 +1101,16 @@ li:hover .range-price {
 }
 
 #top {
-	bottom: 0;
+	bottom: 20px;
 	cursor: pointer;
 	position: fixed;
 	background:red;
 	height: 20px;
-	width: 50px;
-	right: 0;
+	width: 70px;
+	right: 50px;
 	text-decoration: none;
 	color: #000;
 	text-align: center;
-	border-radius: 50%;
 	display: block;
 }
 
@@ -1136,8 +1135,17 @@ li:hover .range-price {
 	border-radius: 10px;
 	background: #fff;
 }
+.modal-empty-wrap {
+    width: 400px;
+    position: relative;
+    margin: 20% auto;
+    border: 1px solid #e5e5e5;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+}
 
 #close {
 	text-decoration: none;
-	color: #000;
+	color: rgb(196, 27, 27);
 }
