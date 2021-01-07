@@ -18,6 +18,24 @@ window.catalog = [
     preview: ['img/skinny_jeans.png', 'img/skinny_jeans_thumb1.png', 'img/skinny_jeans_thumb1.png'] // replace with paths to images extracted from item layout
 },
 {
+    id: '8c061815-6a7d-4465-bb78-1bdc6c5adedf',
+    dateAdded: '2017-08-28T09:15:36.000Z',
+    title: 'Nike shoes',
+    description: '',
+    placeholder: null,
+    discountedPrice: 80.4,
+    price: 80.4,
+    hasNew: true,
+    category: 'man',
+    fashion: 'Casual style',
+    selectedColor: 'Red',
+    colors: ['Black', 'Green', 'Red'],
+    selectedSize: 'UK 2',
+    sizes: ['UK 2', 'UK 18L', 'UK 20'],
+    thumbnail: 'img/nike.png', // replace with image extracted from item layout
+    preview: ['img/nike1.png', 'img/nike2.png', 'img/nike3.png'] // replace with paths to images extracted from item layout
+},
+{
     id: '014c271a-2811-47fc-b63f-ba279a4ec830',
     dateAdded: '2017-05-15T16:58:40.000Z',
     title: 'Monki Festival Knitted',
