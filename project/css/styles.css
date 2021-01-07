@@ -762,7 +762,7 @@ section.arrivals-catalog {
 .selected:before {
     content:'';
     position: absolute;
-    width: 90px;
+    width: auto;
     height: 130px;
     background: rgba(0,0,0,0.6);
 }
