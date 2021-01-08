@@ -161,11 +161,16 @@ function emptyBag() {
 }
 
 function buyProduct() {
-	document.getElementsByClassName("cart-block")[0].innerHTML = "";
-	document.getElementsByClassName("total-cost")[0].innerText =  "Total cost\n" + '\u00A3' + "0";
-	document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';	
-	document.getElementById("modal").style = "display:block";
-	localStorage.clear();
+	if(localStorage.length === 0){
+		document.getElementsByClassName("cart-block")[0].innerHTML = "Your shopping bag is empty. Use Catalog to add new items";
+	}
+	else{
+		document.getElementsByClassName("cart-block")[0].innerHTML = "";
+		document.getElementsByClassName("total-cost")[0].innerText =  "Total cost\n" + '\u00A3' + "0";
+		document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';	
+		document.getElementById("modal").style = "display:block";
+		localStorage.clear();
+	}
 }
 
 function userChoice(){

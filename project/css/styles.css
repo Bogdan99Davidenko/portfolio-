@@ -1146,6 +1146,9 @@ li:hover .range-price {
 	border-radius: 10px;
 	background: #fff;
 }
+.modal-wrapp h1{
+	text-align: center;
+}
 .empty-wrapp {
     width: 400px;
     position: relative;
@@ -1155,8 +1158,12 @@ li:hover .range-price {
     border-radius: 10px;
     background: #fff;
 }
+.empty-wrapp h1{
+	text-align: center;
+}
 
 #close1 {
+	padding-top: 50px;
 	text-decoration: none;
 	color: rgb(196, 27, 27);
 }
@@ -1174,4 +1181,8 @@ li:hover .range-price {
 }
 #cancel, #okay{
 	text-decoration:none
+}
+
+#cancel{
+	color: red;
 }
