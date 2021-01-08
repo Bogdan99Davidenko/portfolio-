@@ -145,35 +145,47 @@ function createChoiceGood(arr) {
 var total_cost = document.createElement("p");
 document.getElementsByClassName("total-cost")[0].appendChild(total_cost);
 
-var empty_bag = document.getElementsByClassName("empty-button")[0];
-var buy_product = document.querySelector(".buy-button .btn");
+let empty_bag = document.querySelector(".empty-button");
+let buy_product = document.querySelector(".buy-button .btn");
 
 function emptyBag() {
-	if(localStorage.getItem('key') == null){
+	console.log(localStorage.length)
+	if(localStorage.length === 0){
 		document.getElementsByClassName("cart-block")[0].innerHTML = "Your shopping bag is empty. Use Catalog to add new items";
 	}
 	else{
-		document.getElementsByClassName("empty-wrap")[0].innerHTML = "Are you want to clear your bag?";
+		document.getElementById("modal1").style = "display:block";
+		userChoice();
+		// document.getElementsByClassName("cart-block")[0].innerHTML = "";
 	}
-	document.getElementsByClassName("total-cost")[0].innerText =  "Total cost\n" + '\u00A3' + "0";
-	document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';
-	document.getElementsByClassname("empty-wrap").style = "display:block";	
+		
 }
 
 function buyProduct() {
-	localStorage.clear();
 	document.getElementsByClassName("cart-block")[0].innerHTML = "";
 	document.getElementsByClassName("total-cost")[0].innerText =  "Total cost\n" + '\u00A3' + "0";
 	document.getElementsByClassName("contacts")[0].children[2].innerText = 'Bag' + ' ' + '(' + 0 + ')';	
 	document.getElementById("modal").style = "display:block";
+	localStorage.clear();
 }
 
-document.getElementById("close").onclick = function (){
+function userChoice(){
+	document.getElementById("okay").onclick = function (){
+		localStorage.clear();
+	}
+	document.getElementById("cancel").onclick = function (){
+		console.log("hh");
+		document.getElementById("modal1").style = "display:none";
+	}
+}
+
+document.getElementById("close1").onclick = function (){
 	document.getElementById("modal").style = "display:none";
 }
-document.getElementById("close").onclick = function (){
+document.getElementById("close2").onclick = function (){
 	document.getElementById("modal").style = "display:none";
 }
+
 
 empty_bag.addEventListener("click", emptyBag)
 buy_product.addEventListener("click", buyProduct)
