@@ -156,7 +156,6 @@ function emptyBag() {
 	else{
 		document.getElementById("modal1").style = "display:block";
 		userChoice();
-		// document.getElementsByClassName("cart-block")[0].innerHTML = "";
 	}
 		
 }
